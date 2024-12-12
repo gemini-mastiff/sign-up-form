@@ -86,7 +86,7 @@ body{
 .form,
 .account{
     flex: 1;
-    padding: 25px;
+    padding: 35px;
 }
 
 /* Text */
@@ -122,6 +122,7 @@ form>div{
 button{
     height: 50px;
     width: 150px;
+    margin-top: 5px;
     font-size: inherit;
     background-color: #596D48;
     color: #fff;
