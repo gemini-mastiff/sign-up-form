@@ -113,8 +113,15 @@ form{
 
 form>div{
     width: 50%;
+    padding: 5px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+
+form>div>input{
+    font: inherit;
 }
 
 /* Account */
