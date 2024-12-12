@@ -125,6 +125,11 @@ form>div{
     gap: 2px;
 }
 
+form>div>label{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
 form>div>input{
     font: inherit;
 }
