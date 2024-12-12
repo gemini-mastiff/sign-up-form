@@ -105,6 +105,11 @@ body{
     box-shadow: 0, 5, 4, -1, grey;
 }
 
+.form h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
 form{
     flex: 1;
     flex-wrap: wrap;
