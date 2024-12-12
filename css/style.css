@@ -132,3 +132,7 @@ button{
 .account p{
     margin-top: 40px;
 }
+
+.account p a{
+    text-decoration: none;
+}
