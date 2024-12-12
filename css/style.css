@@ -49,7 +49,7 @@ body{
 /* Background Section */
 
 .background{
-    width: 325px;
+    width: clamp(325px, 20%, 22%);
     background-image: url(../img/bg-image.avif);
     background-size: auto 100%;
     color: #fff;
@@ -86,13 +86,14 @@ body{
 .text, 
 .form,
 .account{
+    width: 100%;
     flex: 1;
     padding: 35px;
 }
 
 /* Text */
 
-.text{
+.text>div{
     font-size: 1.4rem;
     font-weight: bold;
     justify-content: center;
@@ -106,7 +107,7 @@ body{
     box-shadow: 0, 5, 4, -1, grey;
 }
 
-.form h3{
+.form>div>h3{
     font-size: 1.4rem;
     font-weight: bold;
 }
@@ -153,11 +154,11 @@ button{
     font-weight: bold;
 }
 
-.account p{
+.account>div>p{
     margin-top: 40px;
 }
 
-.account p a{
+.account>div>p a{
     text-decoration: none;
     color: #596D48;
     font-weight: bold;
