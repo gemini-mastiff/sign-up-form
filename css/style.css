@@ -43,6 +43,8 @@ body{
 
 .background{
     width: max(325px);
+    background-image: url(../img/bg-image.avif);
+    background-size: auto 100%;
 }
 
 .main{
