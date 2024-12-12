@@ -102,8 +102,9 @@ body{
 .text>div{
     font-size: 1.4rem;
     font-weight: bold;
-    justify-content: center;
+    justify-content: end;
     gap: 15px;
+    padding-bottom: 15px;
 }
 
 /* Form */
