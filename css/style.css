@@ -123,6 +123,8 @@ button{
     height: 50px;
     width: 150px;
     font-size: inherit;
+    background-color: #596D48;
+    color: #fff;
 }
 
 .account p{
