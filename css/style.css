@@ -86,8 +86,11 @@ body{
 }
 
 .text{
+    padding: 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
     justify-content: center;
-    gap: 5px;
+    gap: 15px;
 }
 
 .form{
