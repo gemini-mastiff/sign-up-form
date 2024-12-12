@@ -85,12 +85,12 @@ body{
 .form,
 .account{
     flex: 1;
+    padding: 25px;
 }
 
 /* Text */
 
 .text{
-    padding: 25px;
     font-size: 1.4rem;
     font-weight: bold;
     justify-content: center;
