@@ -131,7 +131,11 @@ form>div>label{
 }
 
 form>div>input{
+    appearance: none;
     font: inherit;
+    padding: 0.2rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
 }
 
 /* Account */
