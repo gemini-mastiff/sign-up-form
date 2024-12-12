@@ -91,6 +91,12 @@ body{
     padding: 35px;
 }
 
+.text>div,
+.form>div,
+.account>div{
+    width: clamp(500px, 70%, 75vw);
+}
+
 /* Text */
 
 .text>div{
