@@ -125,6 +125,8 @@ button{
     font-size: inherit;
     background-color: #596D48;
     color: #fff;
+    border: none;
+    border-radius: 8px;
 }
 
 .account p{
