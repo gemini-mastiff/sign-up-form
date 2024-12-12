@@ -79,8 +79,9 @@ body{
     background-color: #ececec;
 }
 
-.main>div,
-.main>.form{
+.text, 
+.form,
+.account{
     flex: 1;
 }
 
