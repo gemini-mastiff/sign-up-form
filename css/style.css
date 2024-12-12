@@ -127,6 +127,7 @@ button{
     color: #fff;
     border: none;
     border-radius: 8px;
+    font-weight: bold;
 }
 
 .account p{
@@ -135,4 +136,6 @@ button{
 
 .account p a{
     text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
 }
