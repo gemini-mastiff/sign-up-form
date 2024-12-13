@@ -167,6 +167,10 @@ input{
     width: 80%;
 }
 
+input:invalid{
+    border: 1px solid red;
+}
+
 input:focus{
     outline: none;
     border: 1px solid #0080FE;
