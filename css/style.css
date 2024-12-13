@@ -118,7 +118,7 @@ body{
     gap: 10px;
 }
 
-.form>div>h3{
+h3{
     font-size: 1.4rem;
     font-weight: bold;
     margin-top: -10px;
@@ -140,12 +140,12 @@ form>div{
     /* gap: 2px; */
 }
 
-form>div>label{
+label{
     text-transform: uppercase;
     font-size: 0.8rem;
 }
 
-form>div>input{
+input{
     appearance: none;
     font: inherit;
     padding: 0.2rem;
@@ -168,11 +168,11 @@ button{
     font-weight: bold;
 }
 
-.account>div>p{
+.account p{
     margin-top: 40px;
 }
 
-.account>div>p a{
+.account a{
     text-decoration: none;
     color: #596D48;
     font-weight: bold;
