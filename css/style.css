@@ -216,8 +216,11 @@ input[type="password"] ~ ul{
     margin-left: 1rem;
 }
 
-
 input[type="password"]:user-invalid + span::after{
+    content: "*Password doesn't meet criteria";
+}
+
+input[id="pswd-confirm"]:user-invalid + span::after{
     content: "*Passwords don't match";
 }
 
