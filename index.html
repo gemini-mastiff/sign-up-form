@@ -30,7 +30,7 @@
         <div class="container flex">
             <h3>Let's do this!</h3>
             <p>Required fields marked with *</p>
-            <form class="flex" action="">
+            <form class="flex" action="" method="post">
                 <div class="row flex">
                     <div>
                         <label for="first-name">*First Name</label>
@@ -78,7 +78,10 @@
                     <div>
                         <label for="pswd-confirm">*Confirm Password</label>
                         <input type="password" id="pswd-confirm" name="pswd-confirm"
-                        required>
+                        required
+                        minlength="8"
+                        maxlength="10"
+                        pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,10}$">
                         <span></span>
                     </div>
                 </div>
