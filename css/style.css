@@ -172,6 +172,10 @@ input{
     width: 80%;
 }
 
+input::placeholder{
+    color: #bebebe;
+}
+
 input:user-invalid{
     border: 1px solid red;
 }
