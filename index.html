@@ -64,7 +64,10 @@
                     <div>
                         <label for="pswd">*Password</label>
                         <input type="password" id="pswd" name="pswd"
-                        required>
+                        required
+                        minlength="8"
+                        maxlength="10"
+                        pattern="(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,10}$">
                         <span></span>
                         <p>Your password should:</p>
                         <ul>
