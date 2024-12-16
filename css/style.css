@@ -186,6 +186,24 @@ input:focus{
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.30);
 }
 
+input:user-invalid + span::after{
+    color: red;
+    font: inherit;
+    font-size: 0.8rem;
+}
+
+input[type="email"]:user-invalid + span::after{
+    content: "*Please Enter a Valid Email";
+}
+
+input[type="tel"]:user-invalid + span::after{
+    content: "*Please Enter a Valid Phone Number";
+}
+
+input[type="password"]:user-invalid + span::after{
+    content: "*Passwords don't match";
+}
+
 /* Account */
 
 button{
